@@ -1,5 +1,5 @@
 # practical5
-Aim : 
+Aim : Study Of Python Dictionaries
 
 Theory : 
 Python dictionaries efficiently store key-value pairs, as shown in your examples for products, students, and users. Your code demonstrates core operations like creation, updating, accessing, removing items, and finding maximum values using built-in methods.Dictionaries in Python are mutable, unordered collections of unique keys mapped to values, implemented as hash tables for O(1) average-time access. Keys must be immutable (e.g., strings, integers) and unique, while values can be any data type; duplicate keys overwrite prior values, as in your  year: 2020  example. Methods like  get(key, default) ,  pop(key) ,  values() ,  keys() , and  max(dict, key=dict.get)  enable safe retrieval, modification, deletion, iteration, and max-finding without errors for missing keys.Python dictionaries implement hash tables using open addressing with linear probing, providing average O(1) lookup, insertion, and deletion regardless of size. Each key generates a hash value via  hash(key)  that maps to table indices; collisions are resolved deterministically, ensuring consistent access speeds critical for real-time embedded systems like Arduino data logging.
