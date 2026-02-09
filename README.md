@@ -11,26 +11,38 @@ Beyond simple storage, dictionaries provide powerful built-in methods for data m
 
 Algorithm:
 
-1.Creation:  dict = {key1: value1, key2: value2}  - Initialize with comma-separated key-value pairs.
+A: Update Product Price
+1)Start
+2)Initialize the dictionary "product" with names as keys and prices as values.
+3)Display the "product" dictionary to show the "Original price".
+4)Update the value of a specific key using the syntax product["Book"] = "55 Rupees".
+5)Display the updated product dictionary.
+6)End
 
-2.Duplicate Key Overwrite:  dictkey = new_value  - Last assignment for duplicate key replaces previous value.
+B: Search Student Marks
+1)Start
+2)Initialize the dictionary "student" with names and marks.
+3)Input a string from the user and store it in the variable name.
+4)Search for the name in the "student" dictionary using the student.get(name,"Student not found" command.
+5)Output the mark if the name exists; otherwise, return the default message "Student not found".
+6)End
 
-3.Length:  len(dict)  - Returns total number of key-value pairs.
+C:User Login Validation
+1)Start
+2)Initialize the dictionary "users" with usernames as keys and passwords as values.
+3)Input data from the user for variables username and password.
+4)Validate by checking if users.get(username) matches the entered password.
+5)If they match, Display "Login successful".
+   Else, Display "Invalid username or password".
+6)End  
 
-4.Add/Update Item:  dictnew_key = value  - Assigns new key-value or updates existing key.
+D:Find Highest Scorer
+1)Start
+2)Initialize the dictionary "student" with student names and their respective marks.
+3)Identify the key with the highest value using max(student, key=student.get) and store it in the variable topper.
+4)Access the score of the topper using the syntax student[topper].
+5)Display the name of the topper and their corresponding marks.
+6)End
 
-5.Access Value:  dictkey  or  dict.get(key, default)  - Retrieves value by key or safe default.
-
-6.Access Name:  student"name"  - Direct bracket notation for key lookup.
-
-7.Remove Item:  dict.pop(key)  - Deletes and returns value for specified key.
-
-8.Update Product Price:  product"book" = 55  - Direct assignment overwrites existing price.
-
-9.Search Student Marks:  marks.get(name, "Student not found")  - Safe lookup with default message.
-
-10.Validate Login:  if users.get(username) == password: print("Welcome")  - Compare retrieved password with input.
-
-11.Find Topper:  topper = max(marks, key=marks.get)  - Returns key with highest associated value.
-
-Conclusion : The Python dictionary stands as one of the most versatile and powerful data structures available to a programmer, serving as the backbone for complex data management and real-time applications. Its ability to map unique, immutable keys to any variety of values provides a level of organizational clarity that lists or tuples simply cannot match. By utilizing a hash-based lookup system, dictionaries ensure that data retrieval remains lightning-fast even as your dataset grows, making them ideal for everything from simple configuration settings to massive databases of user information.
+Conclusion: 
+Hence dictionary was implemented in python and operations were done on them.
