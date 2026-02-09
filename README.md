@@ -12,6 +12,7 @@ Beyond simple storage, dictionaries provide powerful built-in methods for data m
 Algorithm:
 
 A: Update Product Price
+
 1)Start
 
 2)Initialize the dictionary "product" with names as keys and prices as values.
@@ -25,6 +26,7 @@ A: Update Product Price
 6)End
 
 B: Search Student Marks
+
 1)Start
 
 2)Initialize the dictionary "student" with names and marks.
@@ -38,6 +40,7 @@ B: Search Student Marks
 6)End
 
 C:User Login Validation
+
 1)Start
 
 2)Initialize the dictionary "users" with usernames as keys and passwords as values.
@@ -52,6 +55,7 @@ C:User Login Validation
 6)End  
 
 D:Find Highest Scorer
+
 1)Start
 
 2)Initialize the dictionary "student" with student names and their respective marks.
