@@ -13,35 +13,55 @@ Algorithm:
 
 A: Update Product Price
 1)Start
+
 2)Initialize the dictionary "product" with names as keys and prices as values.
+
 3)Display the "product" dictionary to show the "Original price".
+
 4)Update the value of a specific key using the syntax product["Book"] = "55 Rupees".
+
 5)Display the updated product dictionary.
+
 6)End
 
 B: Search Student Marks
 1)Start
+
 2)Initialize the dictionary "student" with names and marks.
+
 3)Input a string from the user and store it in the variable name.
+
 4)Search for the name in the "student" dictionary using the student.get(name,"Student not found" command.
+
 5)Output the mark if the name exists; otherwise, return the default message "Student not found".
+
 6)End
 
 C:User Login Validation
 1)Start
+
 2)Initialize the dictionary "users" with usernames as keys and passwords as values.
+
 3)Input data from the user for variables username and password.
+
 4)Validate by checking if users.get(username) matches the entered password.
+
 5)If they match, Display "Login successful".
+
    Else, Display "Invalid username or password".
 6)End  
 
 D:Find Highest Scorer
 1)Start
+
 2)Initialize the dictionary "student" with student names and their respective marks.
+
 3)Identify the key with the highest value using max(student, key=student.get) and store it in the variable topper.
+
 4)Access the score of the topper using the syntax student[topper].
+
 5)Display the name of the topper and their corresponding marks.
+
 6)End
 
 Conclusion: 
